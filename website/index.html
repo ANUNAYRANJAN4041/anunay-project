@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Bites Cafe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <h1>Royal Bites Cafe</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reservation">Reservation</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search dishes...">
+      <button>Search</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Welcome to Royal Bites Cafe</h2>
+      <p>Experience the finest flavors in town</p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-categories">
+      <!-- Starters -->
+      <div class="category">
+        <h3>Starters</h3>
+        <div class="dish-grid">
+          <div class="dish-card">
+            <img src="starter1.jpg" alt="Garlic Bread">
+            <h4>Garlic Bread</h4>
+            <p>$5.99</p>
+          </div>
+          <div class="dish-card">
+            <img src="starter2.jpg" alt="Bruschetta">
+            <h4>Bruschetta</h4>
+            <p>$6.99</p>
+          </div>
+          <div class="dish-card">
+            <img src="starter3.jpg" alt="Spring Rolls">
+            <h4>Spring Rolls</h4>
+            <p>$4.99</p>
+          </div>
+          <div class="dish-card">
+            <img src="starter4.jpg" alt="Chicken Wings">
+            <h4>Chicken Wings</h4>
+            <p>$8.99</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Course -->
+      <div class="category">
+        <h3>Main Course</h3>
+        <div class="dish-grid">
+          <div class="dish-card">
+            <img src="main1.jpg" alt="Grilled Salmon">
+            <h4>Grilled Salmon</h4>
+            <p>$18.99</p>
+          </div>
+          <div class="dish-card">
+            <img src="main2.jpg" alt="Royal Pasta">
+            <h4>Royal Pasta</h4>
+            <p>$12.99</p>
+          </div>
+          <div class="dish-card">
+            <img src="main3.jpg" alt="Beef Steak">
+            <h4>Beef Steak</h4>
+            <p>$22.99</p>
+          </div>
+          <div class="dish-card">
+            <img src="main4.jpg" alt="Vegetable Lasagna">
+            <h4>Vegetable Lasagna</h4>
+            <p>$14.99</p>
+          </div>
+          <div class="dish-card">
+            <img src="main5.jpg" alt="Chicken Alfredo">
+            <h4>Chicken Alfredo</h4>
+            <p>$16.99</p>
+          </div>
+          <div class="dish-card">
+            <img src="main6.jpg" alt="Margherita Pizza">
+            <h4>Margherita Pizza</h4>
+            <p>$10.99</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desserts -->
+      <div class="category">
+        <h3>Desserts</h3>
+        <div class="dish-grid">
+          <div class="dish-card">
+            <img src="dessert1.jpg" alt="Chocolate Lava Cake">
+            <h4>Chocolate Lava Cake</h4>
+            <p>$8.99</p>
+          </div>
+          <div class="dish-card">
+            <img src="dessert2.jpg" alt="Cheesecake">
+            <h4>Cheesecake</h4>
+            <p>$7.99</p>
+          </div>
+          <div class="dish-card">
+            <img src="dessert3.jpg" alt="Tiramisu">
+            <h4>Tiramisu</h4>
+            <p>$9.99</p>
+          </div>
+          <div class="dish-card">
+            <img src="dessert4.jpg" alt="Ice Cream Sundae">
+            <h4>Ice Cream Sundae</h4>
+            <p>$6.99</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Beverages -->
+      <div class="category">
+        <h3>Beverages</h3>
+        <div class="dish-grid">
+          <div class="dish-card">
+            <img src="beverage1.jpg" alt="Mojito">
+            <h4>Mojito</h4>
+            <p>$5.99</p>
+          </div>
+          <div class="dish-card">
+            <img src="beverage2.jpg" alt="Iced Coffee">
+            <h4>Iced Coffee</h4>
+            <p>$4.99</p>
+          </div>
+          <div class="dish-card">
+            <img src="beverage3.jpg" alt="Fresh Orange Juice">
+            <h4>Fresh Orange Juice</h4>
+            <p>$3.99</p>
+          </div>
+          <div class="dish-card">
+            <img src="beverage4.jpg" alt="Green Tea">
+            <h4>Green Tea</h4>
+            <p>$2.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation Form -->
+  <section id="reservation" class="reservation">
+    <h2>Make a Reservation</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="date" required>
+      <input type="time" required>
+      <input type="number" placeholder="Number of Guests" required>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <!-- Location Section -->
+  <section id="location" class="location">
+    <h2>Our Location</h2>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093747!2d144.95373531531664!3d-37.816279742021665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d44e5c30b5e5!2sFlinders%20St%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sin!4v1633033223456!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <p>"The best cafe in town! The food is delicious and the ambiance is perfect."</p>
+        <h4>- John Doe</h4>
+      </div>
+      <div class="testimonial-card">
+        <p>"Amazing service and the Royal Pasta is a must-try!"</p>
+        <h4>- Jane Smith</h4>
+      </div>
+      <div class="testimonial-card">
+        <p>"I loved the Chocolate Lava Cake. Highly recommended!"</p>
+        <h4>- Mike Johnson</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2023 Royal Bites Cafe. All rights reserved.</p>
+  </footer>
+</body>
+</html>
